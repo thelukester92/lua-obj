@@ -1,13 +1,13 @@
-Wavefront Object Loader
+Wavefront Object Loader for LÖVE2d
 ==
+
 Wavefront Object Loader is a library for parsing Wavefront Object files into Lua data structures.
 
 Quick Example
 --
 ```lua
-local obj_loader = require "loader"
-
-local object = obj_loader.load("some_object.obj")
+local loader3d = require "lua-obj"
+local object = loader3d.load("some_object.obj")
 ```
 
 License
